@@ -1,0 +1,36 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+     <link rel="stylesheet" href="css/style.css">
+     <title>Code Player</title>
+ </head>
+ <body>
+     <nav id="header">
+         <div id="logo">Code Editor </div>
+         <div id="buttonContainer">
+                <div class="togglebutton active" id="html" >HTML</div>
+                <div class="togglebutton" id="css">CSS</div>
+                <div class="togglebutton" id="javascript">JavaScript</div>
+                <div class="togglebutton active" id="output" active>Output</div>
+         </div>
+     </nav>
+     
+     <br>
+     <div id="body-Container">
+         <textarea id="htmlPanel" class="panel"><p id='paragraph'>Hello World</p></textarea>
+         <textarea id="cssPanel" class="panel hidden">p {color:green; }</textarea>
+         <textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").innerHTML ="Hello";</textarea>
+         <iframe id="outputPanel" class="panel"></iframe
+     </div>
+     
+   
+
+     
+
+     <script type="text/javascript" src="js/jquery.min.js"></script>
+     <script type="text/javascript" src="js/custom.js"></script>
+ </body>
+ </html> 
